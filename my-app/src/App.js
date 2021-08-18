@@ -1,11 +1,11 @@
+import React from "react";
 
 function App() {
   return (
-    <div>
-        <p>
-          Hello, React.js
-        </p>
-    </div>
+    <React.Fragment>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onChange={() => {console.log("I am ckicked")}} />
+    </React.Fragment>
   );
 }
 
